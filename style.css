@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.team-cards-grid {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.team-card {
+  padding: 20px;
+  margin-right: 20px;
+  width: 20%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px 5px rgba(0, 0, 0, 0.25);
+}
+.team-card__image {
+  border-radius: 5px;
+}
+.team-card__text-wrapper {
+  padding: 2em;
+  text-align: center;
+}
+.team-card__person-name {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+.team-card__bio {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #777;
+  margin-top: 2em;
+  margin-bottom: -1em;
+}
+.team-card__job-title {
+  color: #777;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.team-card__icons-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.team-card__icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
+.team-card--dark {
+  background-color: #111;
+}
+.team-card--dark .team-card__person-name {
+  color: #fff;
+}
+.team-card--dark .team-card__job-title,
+.team-card--dark .team-card__bio {
+  color: #999;
+}
+.team-card--dark .team-card__icon {
+  color: #fff;
+}
